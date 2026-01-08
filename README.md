@@ -54,3 +54,25 @@ XLC — Communication Services
 Media, telecom, internet platforms (e.g., Meta, Google)
 Growth-oriented, advertising-driven
 (Launched in 2018)
+
+# Macro Indicators
+
+CPI — Inflation (CPIAUCSL)
+Measures changes in consumer prices
+Captures inflation pressure on costs, margins, and purchasing power
+
+Federal Funds Rate — Interest Rates (FEDFUNDS)
+Benchmark short-term interest rate set by the Fed
+Drives borrowing costs, valuations, and financial conditions
+
+Unemployment Rate — Labor Market (UNRATE)
+Percentage of the labor force that is unemployed
+Signals economic strength, consumer demand, and recession risk
+
+10Y–2Y Yield Spread — Yield Curve (T10Y2Y)
+Difference between long-term and short-term Treasury yields
+Common recession indicator; inversions often precede downturns
+
+Industrial Production — Economic Activity (INDPRO)
+Measures output of factories, mines, and utilities
+Reflects real economic growth and business cycle momentum
