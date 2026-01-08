@@ -55,7 +55,7 @@ Media, telecom, internet platforms (e.g., Meta, Google)
 Growth-oriented, advertising-driven
 (Launched in 2018)
 
-# Macro Indicators
+# Macroeconomic Indicators
 
 CPI — Inflation (CPIAUCSL)
 Measures changes in consumer prices
