@@ -5,7 +5,7 @@ This project builds a tool that shows how big economic changes like interest rat
 # Instructions
 
 To get the FRED data, first you have to:
-pip install fredapi
+"pip install fredapi" in the terminal
 
 # ETF's
 
