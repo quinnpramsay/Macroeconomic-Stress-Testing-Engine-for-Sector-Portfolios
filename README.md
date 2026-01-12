@@ -1,6 +1,10 @@
 # Introduction
+At its core, this project is about understanding how different parts of the stock market react to changes in the economy over time, rather than trying to predict stock prices directly. The idea is that large macroeconomic forces—such as interest rate changes, inflation, labor market shifts, and recessions—don’t affect all industries equally or at the same speed. Some sectors react immediately, others respond months later, and some are more resilient overall. This project tries to measure those differences in a structured way using historical data.
 
-This project builds a tool that shows how big economic changes like interest rate hikes, inflation, or rising unemployment affect different parts of the stock market. You use real economic data and sector ETFs (like tech, finance, energy) to measure how each sector historically responds to those changes, often with delays. Then you simulate “what-if” scenarios, such as a recession or rapid rate hikes, to estimate how each sector and the whole portfolio might perform. The output is a clear, decision-focused view of risk and downside, not stock price predictions. In simple terms, it answers: “If the economy moves this way, what happens to my portfolio?”
+To do that, I treated the economy as a set of macro signals (inflation, interest rates, unemployment, yield curve, and production) and the stock market as a set of economic sectors (financials, tech, energy, utilities, etc.). Instead of looking at the raw levels of these macro variables, I focused on changes in them—because markets care more about surprises and direction than absolute values. I also introduced time lags (1, 3, 6, and 12 months) to capture the idea that economic shocks don’t hit all sectors instantly. This allows the model to learn patterns such as “rate hikes hurt tech later” or “yield curve inversions damage financials after a delay.”
+
+Once those relationships were estimated, I used them to run stress tests, which is really the heart of the project. Instead of asking “what will happen next month?”, I asked “what would happen if the economy moved in a specific bad direction?” I tested scenarios like rapid interest-rate hikes, a recession, and stagflation by manually applying economic shocks and seeing how each sector would be expected to respond over a year based on historical behavior. The goal wasn’t precision—it was relative risk. Which sectors get hit hardest? Which ones hold up better? And how does a portfolio behave under different macro environments? In the end, this project acts like a decision-support tool: it helps explain why certain sectors are risky in certain economic regimes and how macro conditions propagate through the market over time.
+
 
 # Instructions
 
@@ -66,7 +70,7 @@ Benchmark short-term interest rate set by the Fed
 Drives borrowing costs, valuations, and financial conditions
 
 Unemployment Rate — Labor Market (UNRATE)
-Percentage of the labor force that is unemployed
+The percentage of the labor force that is unemployed
 Signals economic strength, consumer demand, and recession risk
 
 10Y–2Y Yield Spread — Yield Curve (T10Y2Y)
