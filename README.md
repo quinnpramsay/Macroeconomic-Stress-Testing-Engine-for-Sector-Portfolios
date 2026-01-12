@@ -1,6 +1,6 @@
-# Description
+# Introduction
 
-This project builds a tool that shows how big economic changes like interest rate hikes, inflation, or rising unemployment—affect different parts of the stock market. You use real economic data and sector ETFs (like tech, finance, energy) to measure how each sector historically responds to those changes, often with delays. Then you simulate “what-if” scenarios, such as a recession or rapid rate hikes, to estimate how each sector and a whole portfolio might perform. The output is a clear, decision-focused view of risk and downside, not stock price predictions. In simple terms, it answers: “If the economy moves this way, what happens to my portfolio?”
+This project builds a tool that shows how big economic changes like interest rate hikes, inflation, or rising unemployment affect different parts of the stock market. You use real economic data and sector ETFs (like tech, finance, energy) to measure how each sector historically responds to those changes, often with delays. Then you simulate “what-if” scenarios, such as a recession or rapid rate hikes, to estimate how each sector and the whole portfolio might perform. The output is a clear, decision-focused view of risk and downside, not stock price predictions. In simple terms, it answers: “If the economy moves this way, what happens to my portfolio?”
 
 # Instructions
 
