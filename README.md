@@ -8,6 +8,17 @@ To do this, I analyzed changes in key macroeconomic indicators and measured how 
 To get the FRED data, first you have to:
 "pip install fredapi" in the terminal
 
+| File                     | Description                                                                 |
+|--------------------------|-----------------------------------------------------------------------------|
+| `fetch_data.py`          | Downloads macroeconomic data from FRED and sector ETF prices via Yahoo Finance. |
+| `feature_engineering.py` | Builds macroeconomic features and generates lagged versions for modeling.  |
+| `helpers.py`             | Utility functions including time-series cross-validation (`ts_cv_r2`).     |
+| `train_models.py`        | Trains Ridge regression models per sector and collects coefficients & scores. |
+| `define_scenarios.py`    | Creates macroeconomic scenarios (Rate Shock, Recession, Stagflation).      |
+| `predict_scenarios.py`   | Predicts sector returns under each scenario using trained models.          |
+| `plot_results.py`        | Visualizes scenario impacts on sectors and portfolios.                     |
+
+
 # ETF's
 
 XLF — Financials
