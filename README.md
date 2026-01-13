@@ -81,5 +81,10 @@ Stagflation produces the most severe and broad-based losses across sectors. Fina
 
 This chart shows sector responses to a rapid increase in interest rates. Financials suffer notable losses, indicating that aggressive tightening can outweigh short-term benefits from higher rates. Growth-oriented sectors such as technology and consumer discretionary also decline due to valuation pressure. Defensive sectors experience smaller drawdowns and appear more insulated. Energy is the only sector with positive performance, reflecting its sensitivity to inflation rather than interest rates.
 
+# Conclusion
+
+This project examines how different market sectors respond to economic stress and why those responses vary across macroeconomic environments. By linking sector returns to changes in key economic indicators and accounting for delayed effects, this project shows how shocks such as interest rate hikes, recessions, and stagflation move through the market over time. The results make it clear that sector behavior depends heavily on the broader economic regime and that risk does not appear uniformly or immediately across the market.
+
+The findings show that financials and other cyclical sectors consistently experience the largest downside under adverse conditions, while defensive sectors like healthcare, utilities, and consumer staples tend to hold up better. Energy stands out as the most resilient sector across scenarios, often benefiting from inflation-driven dynamics even when growth weakens. Overall, this project emphasizes understanding risk rather than predicting returns, helping identify where economic stress is most likely to concentrate and how portfolio exposure changes under different macro conditions.
 
 
