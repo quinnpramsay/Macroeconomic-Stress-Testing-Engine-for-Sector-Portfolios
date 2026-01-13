@@ -17,6 +17,7 @@ To get the FRED data, first you have to:
 | `define_scenarios.py`    | Creates macroeconomic scenarios (Rate Shock, Recession, Stagflation).      |
 | `predict_scenarios.py`   | Predicts sector returns under each scenario using trained models.          |
 | `plot_results.py`        | Visualizes scenario impacts on sectors and portfolios.                     |
+| `full_code.ipynb`        | Full code of all .py files combined fully ready for implementation         |
 
 
 # ETF's
